@@ -1,0 +1,61 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "git.autofetch": true,
+    
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    
+    "powermode.enabled": true,
+    "powermode.presets": "flames",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[erb]": {
+        "editor.defaultFormatter": "mbessey.vscode-rufo"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    "gitlens.advanced.messages": {
+        "suppressSupportGitLensNotification": true
+    },
+    "debug.toolBarLocation": "docked",
+    "gitlens.views.compare.files.layout": "list",
+    "cSpell.language": "en,pt-BR",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.gist": "fd67319d586a417e6f268d01fac9a8d4",
+    "gitlens.views.repositories.files.layout": "list",
+    "explorer.compactFolders": false,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "dart.sdkPath": "C:\\tools\\dart-sdk",
+    "terminal.integrated.fontFamily": "Hack NF",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace"
+
+}
