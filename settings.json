@@ -54,8 +54,14 @@
     "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features"
     },
+    "[prisma]": {
+        "editor.formatOnSave": true
+    },
     "dart.sdkPath": "C:\\tools\\dart-sdk",
     "terminal.integrated.fontFamily": "Hack NF",
-    "editor.fontFamily": "Consolas, 'Courier New', monospace"
-
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.addMissingImports": true  
+    }
 }
